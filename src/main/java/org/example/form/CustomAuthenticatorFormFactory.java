@@ -1,6 +1,5 @@
 package org.example.form;
 
-import org.example.services.CaptchaService;
 import org.keycloak.Config;
 import org.keycloak.authentication.Authenticator;
 import org.keycloak.authentication.AuthenticatorFactory;
@@ -58,7 +57,7 @@ public class CustomAuthenticatorFormFactory implements AuthenticatorFactory {
 
     @Override
     public Authenticator create(KeycloakSession session) {
-        return new CaptchaUsernamePasswordForm(new CaptchaService());
+        return new CaptchaUsernamePasswordForm();
     }
 
     @Override

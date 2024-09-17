@@ -1,0 +1,21 @@
+.dropdown-menu>li>a{
+    padding:0 !important;
+    display: inline-block !important;
+}
+.m-extra-gam-login-content .m-extra-gam-login-wrapper .m-login-form-wrapper#kc-reset-password-form {
+    display: block;
+}
+
+#kc-reset-password-form #kc-form-buttons,
+#kc-passwd-update-form #kc-form-buttons{
+    margin-left: 0;
+}
+#logout-sessions {
+    width: 16px;
+    height: 16px;
+    top: 0;
+    accent-color: #1c6954;
+}
+a:focus {
+    outline: none !important;
+}

@@ -9,7 +9,7 @@ import lombok.*;
 @Getter
 @Setter
 public class CaptchaEntity {
-    private byte[] captchaImage;
+    private String captchaImage;
     private String captchaAudio;
     private String text;
     private String token;

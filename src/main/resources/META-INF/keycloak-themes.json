@@ -1,0 +1,6 @@
+{
+  "themes": [{
+    "name" : "gam-theme",
+    "types": [ "login", "email" ]
+  }]
+}
